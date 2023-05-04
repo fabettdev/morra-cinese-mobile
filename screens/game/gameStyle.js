@@ -2,8 +2,13 @@ import { StyleSheet } from "react-native";
 
 const gameStyle = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: "red",
+    position: "absolute",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    bottom: 0,
+    height: "75%",
+    width: "100%",
   },
 });
 
